@@ -1,4 +1,4 @@
-obj-m += generic_dev_driver.o
+obj-m += pipe_dev_driver_exp.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build/  M=${PWD} modules
